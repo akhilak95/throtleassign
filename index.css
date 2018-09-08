@@ -1,0 +1,181 @@
+body {
+    background-image: url("backs.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn1 {
+    background-color: white;
+    color: blue;
+    box-shadow: 2px 2px 2px grey;
+    margin-right: 8px
+}
+
+.btn2 {
+    background-color: orange;
+    color: white;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.par {
+    padding-top: 20vh;
+}
+
+.para {
+    font-size: 5rem;
+    word-spacing: 10px
+}
+
+.parag {
+    color: grey;
+    font-size: 1.5rem;
+    word-spacing: 5px
+}
+
+.btndemo {
+    background-color: orange;
+    color: white
+}
+
+.inputform {
+    padding-top: 10vh
+}
+
+input[type="email"] {
+    font-size: 20px;
+}
+
+#buttonst {
+    display: none;
+}
+
+img {
+    height: 5vh;
+    width: 5vw
+}
+
+
+/* media Queries start*/
+
+@media only screen and (min-width:725px) and (max-width: 990px) {
+    img {
+        width: 10vw;
+    }
+    .par {
+        padding-top: 18vh;
+        font-size: 20px;
+    }
+    .para {
+        font-size: 3rem;
+        word-spacing: 0px
+    }
+    .parag {
+        font-size: 1rem;
+        word-spacing: 2px
+    }
+}
+
+@media only screen and (min-width:575px) and (max-width: 725px) {
+    img {
+        width: 15vw;
+        height: 6vh
+    }
+    .par {
+        padding-top: 17vh;
+        font-size: 15px
+    }
+    .para {
+        font-size: 2.5rem;
+    }
+    .parag {
+        font-size: 1rem;
+        word-spacing: 2px
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 575px) {
+    img {
+        width: 15vw;
+        height: 6vh
+    }
+    .par {
+        padding-top: 10vh;
+        font-size: 15px
+    }
+    .para {
+        font-size: 2rem;
+    }
+    .parag {
+        font-size: 1rem;
+        word-spacing: 2px
+    }
+    .btndemo {
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width: 425px) {
+    img {
+        width: 15vw;
+        height: 6vh
+    }
+    #navbarSupportedContent {
+        background-color: white;
+    }
+    .par {
+        padding-top: 15vh;
+        font-size: 12px
+    }
+    .para {
+        font-size: 25px;
+    }
+    .parag {
+        font-size: 14px;
+        word-spacing: 1px
+    }
+    input[type="email"] {
+        font-size: 15px;
+    }
+    .btndemo {
+        margin: auto
+    }
+}
+
+@media only screen and (min-width:575px) and (max-width: 990px) {
+    #navbarSupportedContent {
+        background-color: white;
+    }
+    #navbutton {
+        display: none;
+    }
+    #buttonst {
+        display: inline-block;
+    }
+    .btn1 {
+        margin-left: 30px;
+        width: 200px;
+    }
+    .btn2 {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width:285px) and (max-width: 575px) {
+    #navbutton {
+        display: none;
+    }
+    #buttonst {
+        display: block;
+    }
+    .btn1 {
+        width: 90vw;
+    }
+    .btn2 {
+        margin-top: 6px;
+        width: 90vw;
+    }
+}
+
+
+/* media Queries  end*/
